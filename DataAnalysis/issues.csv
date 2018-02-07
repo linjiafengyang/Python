@@ -1,0 +1,31 @@
+number,title,labels,created_at
+19456,Error when using .loc[integer] with object Index (also) containing floats,[],2018-01-30T05:16:15Z
+19455,TST: fix (other check of) test for MultiIndexPyIntEngine on 32 bit,[],2018-01-30T04:53:23Z
+19454,ENH Adding read_* support for Google Cloud Storage gs:// URLs,[],2018-01-30T02:48:34Z
+19453,API/ENH: Allow Interval to be a first-class type via an IntervalBlock internal type,[],2018-01-30T01:42:31Z
+19452,Remove reference to deprecated .ix from 10min.rst,[],2018-01-30T00:37:50Z
+19451,Multi Index timeindex Selecting,[],2018-01-30T00:34:07Z
+19450,implement bits of numpy_helper in cython where possible,[],2018-01-30T00:33:23Z
+19449,infer_dtype not reporting mixed with decimal/floating,[],2018-01-29T21:28:48Z
+19448,Continue de-nesting core.ops,[],2018-01-29T18:27:20Z
+19447,Segmentation fault: 11 with encoded HTML characters,"[{'id': 307649777, 'default': False, 'name': 'Needs Info', 'color': '207de5', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Info'}]",2018-01-29T17:51:30Z
+19444,make_block compat,[],2018-01-29T16:54:27Z
+19441,BUG: Fix problem with SparseDataFrame not persisting to csv,"[{'id': 47229171, 'default': False, 'name': 'IO CSV', 'color': '5319e7', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/IO%20CSV'}, {'id': 49182326, 'default': False, 'name': 'Sparse', 'color': '009800', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Sparse'}]",2018-01-29T08:03:44Z
+19438,BUG: don't assume series is length > 0,[],2018-01-29T07:08:02Z
+19437,df.groupby('symbol')['status'].ffill() results in Exception: cannot handle a non-unique multi-index!,[],2018-01-29T05:24:23Z
+19436,read_fwf - parsers.py PythonParser._rows_to_columns line 2814 object of type 'NoneType' has no len(),[],2018-01-29T00:46:46Z
+19433,BUG: groupby with resample using on parameter errors when selecting column to apply function,"[{'id': 76811, 'default': False, 'name': 'Bug', 'color': 'e10c02', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug'}, {'id': 74975453, 'default': False, 'name': 'Resample', 'color': '207de5', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Resample'}]",2018-01-28T16:56:33Z
+19432,MultiIndex.from_product() casts float to int when corresponding int is also present,[],2018-01-28T16:27:05Z
+19428,DOC: Spellcheck of categorical.rst and visualization.rst,"[{'id': 134699, 'default': False, 'name': 'Docs', 'color': '3465A4', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Docs'}]",2018-01-28T11:29:28Z
+19427,DOC/ERR: better error message on no common merge keys,[],2018-01-28T08:30:26Z
+19426,Conventions for DataFrame.__eq__?,[],2018-01-27T19:42:57Z
+19425,CLN: GH19404 Changing function signature to match logic,[],2018-01-27T18:09:39Z
+19423,BUG: maybe_convert_objects with convert_datetime,"[{'id': 76811, 'default': False, 'name': 'Bug', 'color': 'e10c02', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug'}, {'id': 31404521, 'default': False, 'name': 'Dtypes', 'color': 'e102d8', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Dtypes'}, {'id': 211840, 'default': False, 'name': 'Timeseries', 'color': 'AFEEEE', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Timeseries'}]",2018-01-27T08:23:33Z
+19422,I can't convert 1H OHLC data into monthly data with a specific time by loffset,[],2018-01-27T07:33:27Z
+19421,ops._arith_method_FRAME typo?,[],2018-01-27T03:01:22Z
+19420,DF.stack() on single column datetime with timezone causes loss of timezone,[],2018-01-27T02:19:15Z
+19419,ENH: Have Period/PeriodIndex inherit from Interval/IntervalIndex,"[{'id': 35818298, 'default': False, 'name': 'API Design', 'color': 'AD7FA8', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/API%20Design'}, {'id': 76812, 'default': False, 'name': 'Enhancement', 'color': '4E9A06', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Enhancement'}, {'id': 150096370, 'default': False, 'name': 'Interval', 'color': '009800', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Interval'}, {'id': 60635328, 'default': False, 'name': 'Period', 'color': 'eb6420', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Period'}]",2018-01-27T01:47:28Z
+19417,"value_labels fails to assign value_label_dict, leads to AttributeError","[{'id': 104865385, 'default': False, 'name': 'IO Stata', 'color': '5319e7', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/IO%20Stata'}, {'id': 307649777, 'default': False, 'name': 'Needs Info', 'color': '207de5', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Info'}]",2018-01-26T22:29:58Z
+19414,Series.loc with MultiIndex does not handle repeated keys properly,[],2018-01-26T18:29:32Z
+19413,"Refactor out libwriters, fix references to Timestamp, Timedelta","[{'id': 211029535, 'default': False, 'name': 'Clean', 'color': '207de5', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Clean'}, {'id': 13101118, 'default': False, 'name': 'Output-Formatting', 'color': 'ededed', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Output-Formatting'}]",2018-01-26T17:49:43Z
+19412,Remove rebasing from contributing guide,"[{'id': 134699, 'default': False, 'name': 'Docs', 'color': '3465A4', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Docs'}]",2018-01-26T17:12:30Z
