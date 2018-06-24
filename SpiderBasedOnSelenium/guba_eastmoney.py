@@ -12,16 +12,16 @@ url = 'http://guba.eastmoney.com/list,{code},1,f_1.html'
 driver = webdriver.Chrome(executable_path='D:\linjiafengyang\Code\Python\chromedriver')
 
 for code in codes:
-	url_temp = url.format(code=code)
-	print(url_temp)
-	html = driver.get(url_temp)
-	soup = BeautifulSoup(driver.page_source, 'lxml')
-	span = soup.select('.sumpage')
-	if len(span) > 0:
-		totle_numbers.append(int(span[0].text))
-	else:
-		totle_numbers.append(int(1))
-	time.sleep(1)
+    url_temp = url.format(code=code)
+    print(url_temp)
+    html = driver.get(url_temp)
+    soup = BeautifulSoup(driver.page_source, 'lxml')
+    span = soup.select('.sumpage')
+    if len(span) > 0:
+        totle_numbers.append(int(span[0].text))
+    else:
+        totle_numbers.append(int(1))
+    time.sleep(1)
 # print(totle_numbers)
 
 driver = webdriver.Chrome(executable_path='D:\linjiafengyang\Code\Python\chromedriver')
